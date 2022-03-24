@@ -1,0 +1,18 @@
+RewriteEngine on
+
+#single file
+RewriteRule ^aspirate_report$ index.php [L]
+RewriteRule ^trephine_report$ trephine_report.php [L]
+RewriteRule ^users$ user_list.php [L]
+RewriteRule ^register$ register.php [L]
+RewriteRule ^login$ login.php [L]
+RewriteRule ^logout$ log_out.php [L]
+RewriteRule ^profile$ profile.php [L]
+
+RewriteRule ^aspirate_report_create$ aspirate_report_create.php [L]
+RewriteRule ^aspirate_report_edit$ aspirate_report_edit.php [L]
+RewriteRule ^aspirate_report_print$ aspirate_report_print.php [L]
+RewriteRule ^trephine_report_create$ trephine_report_create.php [L]
+RewriteRule ^trephine_report_print$ trephine_report_print.php [L]
+RewriteRule ^trephine_report_edit$ trephine_report_edit.php [L]
+
