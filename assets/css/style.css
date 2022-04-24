@@ -125,6 +125,11 @@ a{
     vertical-align: middle !important;
 }
 
+.table .result{
+    padding-left: 50px;
+}
+
+
 .profile_input{
     border: none;
     border-radius: unset;
